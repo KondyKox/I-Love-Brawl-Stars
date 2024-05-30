@@ -1,0 +1,19 @@
+.user__avatar {
+  position: relative;
+  background: var(--clr-avatar);
+  padding: 1em 0.5em;
+  margin-right: 1em;
+  border: 10px solid var(--clr-dark);
+}
+
+.user__avatar img:not(.settings__btn) {
+  max-width: 7em;
+}
+
+.user_id {
+  position: absolute;
+  bottom: -0.5em;
+  left: -0.5em;
+  font-size: var(--size-xl);
+  color: var(--clr-id);
+}

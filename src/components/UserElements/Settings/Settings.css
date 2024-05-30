@@ -1,0 +1,13 @@
+.user-settings {
+  background-color: var(--clr-avatar);
+  padding: 0.5em 2em;
+  transform: skew(-5deg);
+  border: 2px solid var(--clr-dark);
+  border-radius: 5px;
+  align-self: flex-start;
+  margin-left: 1em;
+}
+
+.user-settings h2 {
+  transform: skew(5deg);
+}

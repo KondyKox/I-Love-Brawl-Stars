@@ -1,0 +1,19 @@
+.user__username {
+  background-color: var(--clr-gray);
+  min-width: 8em;
+  min-height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: skew(-5deg);
+  border: 2px solid var(--clr-dark);
+  border-radius: 5px;
+  box-shadow: 0 0.2em 0.25em var(--clr-dark);
+  position: relative;
+}
+
+.user__username .username {
+  transform: skew(5deg);
+  text-align: center;
+  padding: 0 1em;
+}

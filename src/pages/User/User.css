@@ -1,0 +1,16 @@
+.user {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* User info */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}

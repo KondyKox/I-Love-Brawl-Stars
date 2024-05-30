@@ -1,0 +1,54 @@
+.user__level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+.level__wrapper {
+  position: relative;
+}
+
+.level__wrapper img {
+  max-width: 3em;
+}
+
+.level {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+
+.progress {
+  background-color: var(--clr-gray);
+  width: 15em;
+  height: 2.5em;
+  margin-left: -1em;
+  z-index: -1;
+  position: relative;
+  transform: skew(-5deg);
+  border: 2px solid var(--clr-dark);
+}
+
+.current__progress {
+  background-color: var(--clr-level);
+  width: 15%;
+  height: 100%;
+  border-right: 2px solid var(--clr-dark);
+}
+
+.progress__text {
+  background-color: var(--clr-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  transform: skew(5deg);
+}
+
+.progress__text img {
+  max-width: 1.5em;
+  margin-right: 0.5em;
+}

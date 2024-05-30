@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "title": "HIGHEST TROPHIES",
+    "img": "./icons/icon_trophy.png",
+    "value": 160
+  },
+
+  {
+    "id": 2,
+    "title": "HIGHEST POWER PLAY POINTS",
+    "img": "./icons/icon_powerplay.png",
+    "value": 0
+  },
+
+  {
+    "id": 3,
+    "title": "MOST CHALLENGE WINS",
+    "img": "./icons/icon_challenge.png",
+    "value": null
+  },
+
+  {
+    "id": 4,
+    "title": "3 VS 3 VICTORIES",
+    "img": "./icons/icon_3v3.png",
+    "value": 5
+  },
+
+  {
+    "id": 5,
+    "title": "SOLO VICTORIES",
+    "img": "./icons/icon_solo.png",
+    "value": 9
+  },
+
+  {
+    "id": 6,
+    "title": "DUO VICTORIES",
+    "img": "./icons/icon_duo.png",
+    "value": 0
+  },
+
+  {
+    "id": 7,
+    "title": "HIGHEST ROBO RUMBLE LVL PASSED",
+    "img": "./icons/icon_roborumble.png",
+    "value": null
+  },
+
+  {
+    "id": 8,
+    "title": "HIGHEST BOSS FIGHT LVL PASSED",
+    "img": "./icons/icon_bossfight.png",
+    "value": null
+  },
+
+  {
+    "id": 9,
+    "title": "HIGHEST RAMPAGNE LVL PASSED",
+    "img": "./icons/icon_rampage.png",
+    "value": null
+  }
+]

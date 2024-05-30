@@ -1,0 +1,47 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3em;
+  gap: 0.5em 0;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stat__title {
+  font-size: var(--size-sm);
+  padding: 0.5em;
+}
+
+.stat__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-shadow);
+  height: 3em;
+  border-radius: 5px;
+  width: 15em;
+  transform: skew(-5deg);
+  position: relative;
+}
+
+.stat__value {
+  font-size: var(--size-lg);
+  transform: skew(5deg);
+}
+
+.stat__wrapper img {
+  position: absolute;
+  max-width: 3.5em;
+  transform: skew(5deg);
+  justify-self: flex-start;
+  left: -10%;
+  top: -10%;
+}
