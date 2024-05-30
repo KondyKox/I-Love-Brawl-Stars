@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Lilita One";
+  src: url("./fonts/lilitaone-regular-webfont.ttf") format("truetype");
+}
+
+:root {
+  --clr-light: #dfdfdf;
+  --clr-dark: #0a0a0a;
+  --clr-gray: #343c50;
+
+  --clr-shadow: rgba(1, 57, 127, 0.9);
+  --clr-avatar: #0766bc;
+  --clr-level: #287df7;
+  --clr-id: #98cbff;
+
+  --size-sm: 0.75rem;
+  --size-lg: 1.25rem;
+  --size-xl: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  font-family: "Lilita One", sans-serif;
+  color: var(--clr-light);
+  letter-spacing: 0.1em;
+  text-shadow: -1px -1px 0 var(--clr-dark), 1px -1px 0 var(--clr-dark),
+    -1px 1px 0 var(--clr-dark), 1px 5px 0 var(--clr-dark);
+}
+
+#app {
+  position: relative;
+  z-index: 1;
+}
