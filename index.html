@@ -1,13 +1,178 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon"  href="/icons/icon_challenge.png" />
+    <link rel="icon" href="/icons/icon_challenge.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nienawidzę żydów</title>
+    <!-- <title>Brawl Stars Lobby</title> -->
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div id="container">
+      <!-- "Navbar" -->
+      <div class="navbar">
+        <div class="navbar__btn">
+          <img src="./icons/icon_back.png" alt="Go Back" />
+        </div>
+
+        <h1>interfaceingame</h1>
+
+        <div class="navbar__btn">
+          <img src="./icons/icon_home.png" alt="Home" />
+        </div>
+      </div>
+
+      <!-- User -->
+      <div class="user">
+        <div class="user__avatar">
+          <img
+            class="settings__btn"
+            src="./icons/icon_settings.png"
+            alt="Settings"
+          />
+          <img src="./icons/icon_challenge.png" alt="Avatar" />
+          <span class="user_id">#PJJL99CRV</span>
+        </div>
+
+        <!-- User info -->
+        <div class="user-info">
+          <div class="user__username">
+            <img
+              class="settings__btn"
+              src="./icons/icon_settings.png"
+              alt="Settings"
+            />
+            <h2 class="username">interfaceingame</h2>
+          </div>
+
+          <!-- Level -->
+          <div class="user__level">
+            <div class="level__wrapper">
+              <img src="./icons/icon_star.png" alt="Level" />
+              <span class="level">5</span>
+            </div>
+            <div class="level__wrapper">
+              <!-- <input type="range" max="80" value="2" /> -->
+              <div class="progress">
+                <div class="current__progress"></div>
+                <span class="progress__text"
+                  ><img src="./icons/icon_star.png" alt="" /> 2/80</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Settings -->
+        <div class="user-settings">
+          <img
+            class="settings__btn"
+            src="./icons/icon_settings.png"
+            alt="Settings"
+          />
+          <h2>
+            NAME<br />
+            COLOR
+          </h2>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats">
+        <div class="stat">
+          <h3 class="stat__title">HIGHEST TROPHIES</h3>
+          <div class="stat__wrapper">
+            <img src="./icons/icon_trophy.png" alt="HIGHEST TROPHIES" />
+            <span class="stat__value">160</span>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h3 class="stat__title">HIGHEST POWER PLAY POINTS</h3>
+          <div class="stat__wrapper">
+            <img
+              src="./icons/icon_powerplay.png"
+              alt="HIGHEST POWER PLAY POINTS"
+            />
+            <span class="stat__value">0</span>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h3 class="stat__title">MOST CHALLENGE WINS</h3>
+          <div class="stat__wrapper">
+            <img src="./icons/icon_challenge.png" alt="MOST CHALLENGE WINS" />
+            <span class="stat__value"></span>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h3 class="stat__title">3 VS 3 VICTORIES</h3>
+          <div class="stat__wrapper">
+            <img src="./icons/icon_3v3.png" alt="3 VS 3 VICTORIES" />
+            <span class="stat__value">5</span>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h3 class="stat__title">SOLO VICTORIES</h3>
+          <div class="stat__wrapper">
+            <img src="./icons/icon_solo.png" alt="SOLO VICTORIES" />
+            <span class="stat__value">9</span>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h3 class="stat__title">DUO VICTORIES</h3>
+          <div class="stat__wrapper">
+            <img src="./icons/icon_duo.png" alt="DUO VICTORIES" />
+            <span class="stat__value">0</span>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h3 class="stat__title">HIGHEST ROBO RUMBLE LVL PASSED</h3>
+          <div class="stat__wrapper">
+            <img
+              src="./icons/icon_roborumble.png"
+              alt="HIGHEST ROBO RUMBLE LVL PASSED"
+            />
+            <span class="stat__value"></span>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h3 class="stat__title">HIGHEST BOSS FIGHT LVL PASSED</h3>
+          <div class="stat__wrapper">
+            <img
+              src="./icons/icon_bossfight.png"
+              alt="HIGHEST BOSS FIGHT LVL PASSED"
+            />
+            <span class="stat__value"></span>
+          </div>
+        </div>
+
+        <div class="stat">
+          <h3 class="stat__title">HIGHEST RAMPAGNE LVL PASSED</h3>
+          <div class="stat__wrapper">
+            <img
+              src="./icons/icon_rampage.png"
+              alt="HIGHEST RAMPAGNE LVL PASSED"
+            />
+            <span class="stat__value"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Background Video -->
+    <div id="background">
+      <div class="top-bar"></div>
+      <video autoplay muted loop class="bg-video">
+        <source src="/brawl_lobby_animated.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <script type="module" src="/main.js"></script>
   </body>
 </html>

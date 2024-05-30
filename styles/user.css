@@ -1,0 +1,146 @@
+.user {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* User avatar */
+.user__avatar {
+  position: relative;
+  background: var(--clr-avatar);
+  padding: 1em 0.5em;
+  margin-right: 1em;
+  border: 10px solid var(--clr-dark);
+}
+
+.user__avatar img:not(.settings__btn) {
+  max-width: 7em;
+}
+
+.user_id {
+  position: absolute;
+  bottom: -0.5em;
+  left: -0.5em;
+  font-size: var(--size-xl);
+  color: var(--clr-id);
+}
+
+/* User info */
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.user__username {
+  background-color: var(--clr-gray);
+  min-width: 8em;
+  min-height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: skew(-5deg);
+  border: 2px solid var(--clr-dark);
+  border-radius: 5px;
+  box-shadow: 0 0.2em 0.25em var(--clr-dark);
+  position: relative;
+}
+
+.user__username .username {
+  transform: skew(5deg);
+  text-align: center;
+  padding: 0 1em;
+}
+
+/* Level */
+.user__level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5em;
+}
+
+.level__wrapper {
+  position: relative;
+}
+
+.level__wrapper img {
+  max-width: 3em;
+}
+
+.level {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+}
+
+.progress {
+  background-color: var(--clr-gray);
+  width: 15em;
+  height: 2.5em;
+  margin-left: -1em;
+  z-index: -1;
+  position: relative;
+  transform: skew(-5deg);
+  border: 2px solid var(--clr-dark);
+}
+
+.current__progress {
+  background-color: var(--clr-level);
+  width: 15%;
+  height: 100%;
+  border-right: 2px solid var(--clr-dark);
+}
+
+.progress__text {
+  background-color: var(--clr-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  transform: skew(5deg);
+}
+
+.progress__text img {
+  max-width: 1.5em;
+  margin-right: 0.5em;
+}
+
+/* Settings */
+.user-settings {
+  background-color: var(--clr-avatar);
+  padding: 0.5em 2em;
+  transform: skew(-5deg);
+  border: 2px solid var(--clr-dark);
+  border-radius: 5px;
+  align-self: flex-start;
+  margin-left: 1em;
+}
+
+.user-settings h2 {
+  transform: skew(5deg);
+}
+
+/* Setting btn */
+.user__avatar .settings__btn {
+  transform: skew(-5deg);
+}
+
+.settings__btn {
+  position: absolute;
+  top: -1em;
+  left: -1em;
+  max-width: 2em;
+  filter: drop-shadow(0 0 0.5em var(--clr-dark));
+  transform: skew(5deg);
+}
+
+.settings__btn:hover {
+  cursor: pointer;
+}
